@@ -4,13 +4,15 @@ var date = $("#currentDay")
 var clearBtn = $('#clearSchedule')
 
 //Populate today's date
-var now = moment().format("LLL");
+var now = moment().format("LLLL");
 date.text(now);
 
 setInterval(function(){
-    var now = moment().format("LLL");
+    var now = moment().format("LLLL");
     date.text(now);
 },60000)
+
+setInterval(reload,60000)
 
 //grab current hour
 
@@ -117,3 +119,7 @@ function    clearLocal(){
     }
 
 clearBtn.on("click",clearLocal)
+
+function reload(){
+    location.reload();
+}
