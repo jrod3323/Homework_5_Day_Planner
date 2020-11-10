@@ -15,7 +15,7 @@ A user will input their plans for each hour in the text area provided.  After in
 
 At the end of the day or beginning of a new day, the user can click the Clear Schedule button at the bottom to clear the Scheduler.
 
-Of note, the scheduler will auto update the time every 60 seconds and it will also refresh the Scheduler every 60 seconds to ensure that each our slot is populated with the correct color if the scheduler is left open.
+Of note, the scheduler will auto update the time every 60 seconds and it will also refresh the Scheduler every 60 seconds to ensure that each hour row is populated with the correct color if the scheduler is left open.
 
 ## Screenshot
 
